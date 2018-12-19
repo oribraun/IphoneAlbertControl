@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1781DCE521CA6616001537E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781DCE421CA6616001537E3 /* AppDelegate.swift */; };
+		1781DCE721CA6616001537E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781DCE621CA6616001537E3 /* ViewController.swift */; };
+		1781DCEA21CA6616001537E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1781DCE821CA6616001537E3 /* Main.storyboard */; };
+		1781DCEC21CA6616001537E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1781DCEB21CA6616001537E3 /* Assets.xcassets */; };
+		1781DCEF21CA6616001537E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1781DCED21CA6616001537E3 /* LaunchScreen.storyboard */; };
+		1781DCFA21CA6616001537E3 /* AlbertControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781DCF921CA6616001537E3 /* AlbertControlTests.swift */; };
+		1781DD0521CA6616001537E3 /* AlbertControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781DD0421CA6616001537E3 /* AlbertControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1781DCF621CA6616001537E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1781DCD921CA6616001537E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1781DCE021CA6616001537E3;
+			remoteInfo = AlbertControl;
+		};
+		1781DD0121CA6616001537E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1781DCD921CA6616001537E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1781DCE021CA6616001537E3;
+			remoteInfo = AlbertControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1781DCE121CA6616001537E3 /* AlbertControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbertControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1781DCE421CA6616001537E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1781DCE621CA6616001537E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1781DCE921CA6616001537E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1781DCEB21CA6616001537E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1781DCEE21CA6616001537E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1781DCF021CA6616001537E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1781DCF521CA6616001537E3 /* AlbertControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbertControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1781DCF921CA6616001537E3 /* AlbertControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbertControlTests.swift; sourceTree = "<group>"; };
+		1781DCFB21CA6616001537E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1781DD0021CA6616001537E3 /* AlbertControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbertControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1781DD0421CA6616001537E3 /* AlbertControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbertControlUITests.swift; sourceTree = "<group>"; };
+		1781DD0621CA6616001537E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1781DCDE21CA6616001537E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1781DCF221CA6616001537E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1781DCFD21CA6616001537E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1781DCD821CA6616001537E3 = {
+			isa = PBXGroup;
+			children = (
+				1781DCE321CA6616001537E3 /* AlbertControl */,
+				1781DCF821CA6616001537E3 /* AlbertControlTests */,
+				1781DD0321CA6616001537E3 /* AlbertControlUITests */,
+				1781DCE221CA6616001537E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1781DCE221CA6616001537E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1781DCE121CA6616001537E3 /* AlbertControl.app */,
+				1781DCF521CA6616001537E3 /* AlbertControlTests.xctest */,
+				1781DD0021CA6616001537E3 /* AlbertControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1781DCE321CA6616001537E3 /* AlbertControl */ = {
+			isa = PBXGroup;
+			children = (
+				1781DCE421CA6616001537E3 /* AppDelegate.swift */,
+				1781DCE621CA6616001537E3 /* ViewController.swift */,
+				1781DCE821CA6616001537E3 /* Main.storyboard */,
+				1781DCEB21CA6616001537E3 /* Assets.xcassets */,
+				1781DCED21CA6616001537E3 /* LaunchScreen.storyboard */,
+				1781DCF021CA6616001537E3 /* Info.plist */,
+			);
+			path = AlbertControl;
+			sourceTree = "<group>";
+		};
+		1781DCF821CA6616001537E3 /* AlbertControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				1781DCF921CA6616001537E3 /* AlbertControlTests.swift */,
+				1781DCFB21CA6616001537E3 /* Info.plist */,
+			);
+			path = AlbertControlTests;
+			sourceTree = "<group>";
+		};
+		1781DD0321CA6616001537E3 /* AlbertControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1781DD0421CA6616001537E3 /* AlbertControlUITests.swift */,
+				1781DD0621CA6616001537E3 /* Info.plist */,
+			);
+			path = AlbertControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1781DCE021CA6616001537E3 /* AlbertControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1781DD0921CA6616001537E3 /* Build configuration list for PBXNativeTarget "AlbertControl" */;
+			buildPhases = (
+				1781DCDD21CA6616001537E3 /* Sources */,
+				1781DCDE21CA6616001537E3 /* Frameworks */,
+				1781DCDF21CA6616001537E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlbertControl;
+			productName = AlbertControl;
+			productReference = 1781DCE121CA6616001537E3 /* AlbertControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1781DCF421CA6616001537E3 /* AlbertControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1781DD0C21CA6616001537E3 /* Build configuration list for PBXNativeTarget "AlbertControlTests" */;
+			buildPhases = (
+				1781DCF121CA6616001537E3 /* Sources */,
+				1781DCF221CA6616001537E3 /* Frameworks */,
+				1781DCF321CA6616001537E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1781DCF721CA6616001537E3 /* PBXTargetDependency */,
+			);
+			name = AlbertControlTests;
+			productName = AlbertControlTests;
+			productReference = 1781DCF521CA6616001537E3 /* AlbertControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1781DCFF21CA6616001537E3 /* AlbertControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1781DD0F21CA6616001537E3 /* Build configuration list for PBXNativeTarget "AlbertControlUITests" */;
+			buildPhases = (
+				1781DCFC21CA6616001537E3 /* Sources */,
+				1781DCFD21CA6616001537E3 /* Frameworks */,
+				1781DCFE21CA6616001537E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1781DD0221CA6616001537E3 /* PBXTargetDependency */,
+			);
+			name = AlbertControlUITests;
+			productName = AlbertControlUITests;
+			productReference = 1781DD0021CA6616001537E3 /* AlbertControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1781DCD921CA6616001537E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "macOS Sierra";
+				TargetAttributes = {
+					1781DCE021CA6616001537E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1781DCF421CA6616001537E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1781DCE021CA6616001537E3;
+					};
+					1781DCFF21CA6616001537E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1781DCE021CA6616001537E3;
+					};
+				};
+			};
+			buildConfigurationList = 1781DCDC21CA6616001537E3 /* Build configuration list for PBXProject "AlbertControl" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1781DCD821CA6616001537E3;
+			productRefGroup = 1781DCE221CA6616001537E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1781DCE021CA6616001537E3 /* AlbertControl */,
+				1781DCF421CA6616001537E3 /* AlbertControlTests */,
+				1781DCFF21CA6616001537E3 /* AlbertControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1781DCDF21CA6616001537E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1781DCEF21CA6616001537E3 /* LaunchScreen.storyboard in Resources */,
+				1781DCEC21CA6616001537E3 /* Assets.xcassets in Resources */,
+				1781DCEA21CA6616001537E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1781DCF321CA6616001537E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1781DCFE21CA6616001537E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1781DCDD21CA6616001537E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1781DCE721CA6616001537E3 /* ViewController.swift in Sources */,
+				1781DCE521CA6616001537E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1781DCF121CA6616001537E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1781DCFA21CA6616001537E3 /* AlbertControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1781DCFC21CA6616001537E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1781DD0521CA6616001537E3 /* AlbertControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1781DCF721CA6616001537E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1781DCE021CA6616001537E3 /* AlbertControl */;
+			targetProxy = 1781DCF621CA6616001537E3 /* PBXContainerItemProxy */;
+		};
+		1781DD0221CA6616001537E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1781DCE021CA6616001537E3 /* AlbertControl */;
+			targetProxy = 1781DD0121CA6616001537E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1781DCE821CA6616001537E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1781DCE921CA6616001537E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1781DCED21CA6616001537E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1781DCEE21CA6616001537E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1781DD0721CA6616001537E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1781DD0821CA6616001537E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1781DD0A21CA6616001537E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NN8UZK66WF;
+				INFOPLIST_FILE = AlbertControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aetrex.com.AlbertControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1781DD0B21CA6616001537E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NN8UZK66WF;
+				INFOPLIST_FILE = AlbertControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aetrex.com.AlbertControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1781DD0D21CA6616001537E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NN8UZK66WF;
+				INFOPLIST_FILE = AlbertControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aetrex.com.AlbertControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlbertControl.app/AlbertControl";
+			};
+			name = Debug;
+		};
+		1781DD0E21CA6616001537E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NN8UZK66WF;
+				INFOPLIST_FILE = AlbertControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aetrex.com.AlbertControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlbertControl.app/AlbertControl";
+			};
+			name = Release;
+		};
+		1781DD1021CA6616001537E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NN8UZK66WF;
+				INFOPLIST_FILE = AlbertControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aetrex.com.AlbertControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlbertControl;
+			};
+			name = Debug;
+		};
+		1781DD1121CA6616001537E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NN8UZK66WF;
+				INFOPLIST_FILE = AlbertControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aetrex.com.AlbertControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlbertControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1781DCDC21CA6616001537E3 /* Build configuration list for PBXProject "AlbertControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1781DD0721CA6616001537E3 /* Debug */,
+				1781DD0821CA6616001537E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1781DD0921CA6616001537E3 /* Build configuration list for PBXNativeTarget "AlbertControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1781DD0A21CA6616001537E3 /* Debug */,
+				1781DD0B21CA6616001537E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1781DD0C21CA6616001537E3 /* Build configuration list for PBXNativeTarget "AlbertControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1781DD0D21CA6616001537E3 /* Debug */,
+				1781DD0E21CA6616001537E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1781DD0F21CA6616001537E3 /* Build configuration list for PBXNativeTarget "AlbertControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1781DD1021CA6616001537E3 /* Debug */,
+				1781DD1121CA6616001537E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1781DCD921CA6616001537E3 /* Project object */;
+}
